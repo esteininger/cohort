@@ -80,15 +80,19 @@
         }
 
         .company-logo img {
-            max-width: 75%;
+            max-height: 4rem;
+            width: auto;
             display: block;
             margin: auto;
         }
 
-        .card-body button {
-            color: var(--bs-btn-active-color);
-            background-color: var(--bs-btn-active-bg);
-            border-color: var(--bs-btn-active-border-color);
+
+
+
+        .companies .card button {
+            color: var(--bs-btn-hover-color);
+            background-color: var(--bs-btn-hover-bg);
+            border-color: var(--bs-btn-hover-border-color);
         }
     </style>
 </head>
@@ -143,7 +147,7 @@
                     <h3>Companies Confirmed</h3>
                 </div>
 
-                <div class="row">
+                <div class="row companies">
                     <div class="col-md-3">
                         <div class="card mb-4 box-shadow">
                             <div class="company-logo">
@@ -151,7 +155,7 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    Multimodal data pipelines for any AI applications.
+                                    Multimodal pipelines for your AI applications.
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
@@ -190,6 +194,29 @@
                         </div>
 
                     </div>
+                    <div class="col-md-3">
+                        <div class="card mb-4 box-shadow">
+                            <div class="company-logo">
+                                <img class="card-img-top py-2"
+                                    src="https://assets-global.website-files.com/6528cef84d6db0987c789f31/6528cef84d6db0987c789f49_logoC.svg">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    AI platform for the modern accounting firm
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://www.getbasis.ai/" target="_blank">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary">Website</button>
+                                        </a>
+                                    </div>
+                                    <small class="text-muted">Seed</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
@@ -197,13 +224,13 @@
 
 
     </main>
-    <hr class="my-3 full-width-hr">
+    <!-- <hr class="my-3 full-width-hr">
 
     <footer class="text-muted text-center py-4">
         <div class="container">
             <div class="text-center">Made with ❤️ by <a href="https://ethan.dev" target="_blank">Ethan</a></div>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
